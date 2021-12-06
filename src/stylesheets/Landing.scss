@@ -1,0 +1,33 @@
+.landingContainer {
+    height:100vh;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typistContainer {
+    color: white;
+    position: 'absolute';
+    text-align: center;
+}
+
+.typistContainer h1 {
+    font-size: 40px;
+}
+
+.typistContainer p {
+    font-size: 20px;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center
+}
+
+.iconContainer a {
+    color: white;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
