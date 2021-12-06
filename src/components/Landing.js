@@ -1,7 +1,7 @@
 import "../stylesheets/Landing.scss";
 import {BsGithub, BsLinkedin} from "react-icons/bs";
 
-
+// Landing Page
 export const Landing = () => {
     return (
         <div className="landingContainer">
