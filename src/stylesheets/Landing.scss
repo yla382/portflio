@@ -12,12 +12,14 @@
     text-align: center;
 }
 
-.typistContainer h1 {
-    font-size: 40px;
-}
+.typistContainer {
+    h1 {
+        font-size: 40px;
+    }
 
-.typistContainer p {
-    font-size: 20px;
+    p {
+        font-size: 20px;
+    }
 }
 
 .iconContainer {
@@ -25,9 +27,11 @@
     justify-content: center
 }
 
-.iconContainer a {
-    color: white;
-    font-size: 40px;
-    margin-left: 15px;
-    margin-right: 15px;
+.iconContainer {
+    a {
+        color: white;
+        font-size: 40px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }

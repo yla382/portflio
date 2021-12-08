@@ -7,11 +7,13 @@
     justify-content: center;
 }
 
-.timeline-header a {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 40px;
-    color: #333;
+.timeline-header {
+    p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 40px;
+        color: #333;
+    }
 }
 
 @media only screen and (min-width: 1170px) {

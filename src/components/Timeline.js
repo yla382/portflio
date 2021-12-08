@@ -9,7 +9,7 @@ export const Timeline = () => {
     return (
         <div className="timelineContainer">
             <div className="timeline-header">
-                <a>Timeline</a>
+                <p>Timeline</p>
             </div>
             <div className="timeline">
                 <VerticalTimeline>
@@ -21,7 +21,7 @@ export const Timeline = () => {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<TiLeaf />}
                     >
-                        <h3 className="vertical-timeline-element-title">Web Developer</h3>
+                        <h3 className="vertical-timeline-element-title">Web Developer Co-op</h3>
                         <h4 className="vertical-timeline-element-subtitle">Burnaby, BC</h4>
                         <p>Greenlight Innovation</p>
                     </VerticalTimelineElement>
@@ -31,7 +31,7 @@ export const Timeline = () => {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<TiLeaf />}
                     >
-                        <h3 className="vertical-timeline-element-title">Data Analyst/Programmer</h3>
+                        <h3 className="vertical-timeline-element-title">Data Analyst/Programmer Co-op</h3>
                         <h4 className="vertical-timeline-element-subtitle">Burnaby, BC</h4>
                         <p>Greenlight Innovation</p>
                     </VerticalTimelineElement>
