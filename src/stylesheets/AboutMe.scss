@@ -1,4 +1,23 @@
 .AboutMeContainer {
-    height: 100vh;
-    background-color: blanchedalmond;
+    // height: 100vh;
+    background-color: #1d1d1d;
+    padding-bottom: 200px;
+}
+
+.paragraphContainer {
+    color: white
+}
+
+.paragraphContainer {
+    h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 80px;
+    }
+
+    p {
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }

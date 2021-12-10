@@ -1,6 +1,6 @@
 .landingContainer {
     height:100vh;
-    background-color: #333333;
+    background-color: #1d1d1d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,17 +8,20 @@
 
 .typistContainer {
     color: white;
+    margin-left: 80px;
     position: 'absolute';
     text-align: center;
 }
 
 .typistContainer {
     h1 {
-        font-size: 40px;
+        font-size: 80px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     p {
-        font-size: 20px;
+        font-size: 40px;
     }
 }
 

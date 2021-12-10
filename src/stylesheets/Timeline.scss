@@ -1,5 +1,6 @@
 .timelineContainer {
-    background-color: #e3e3e3;
+    background-color: #1d1d1d;
+    padding-bottom: 200px;
 }
 
 .timeline-header {
@@ -11,13 +12,13 @@
     p {
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 40px;
-        color: #333;
+        font-size: 80px;
+        color: white;
     }
 }
 
 @media only screen and (min-width: 1170px) {
-    .timelineContainer span {
-        color: #333;
+    .timeline span {
+        color: white;
     }   
 }
