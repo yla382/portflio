@@ -5,9 +5,9 @@ import {AiFillStar} from "react-icons/ai";
 import {IoMdSchool} from "react-icons/io";
 import {TiLeaf} from "react-icons/ti";
 
-export const Timeline = () => {
+export const Timeline = ({ scrollTimeLine }) => {
     return (
-        <div className="timelineContainer">
+        <div className="timelineContainer" ref={ scrollTimeLine }>
             <div className="timeline-header">
                 <h1>Timeline</h1>
             </div>

@@ -25,3 +25,17 @@
         color: white;
     }
 }
+
+#inner_nav {
+    display: flex;
+    justify-content: space-around;
+    p {
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    p:hover {
+      color: grey;  
+    }
+}

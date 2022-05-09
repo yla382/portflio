@@ -8,9 +8,9 @@ import {
     SiPostgresql
     } from "react-icons/si"; 
 
-export const Skills = () => {
+export const Skills = ({ scrollSkills }) => {
     return (
-        <div className="skills_container">
+        <div className="skills_container" ref={ scrollSkills }>
             <div>
                 <h1>Skills</h1>
                 <div className="icon_container">
