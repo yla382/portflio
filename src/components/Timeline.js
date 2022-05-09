@@ -9,7 +9,7 @@ export const Timeline = () => {
     return (
         <div className="timelineContainer">
             <div className="timeline-header">
-                <p>Timeline</p>
+                <h1>Timeline</h1>
             </div>
             <div className="timeline">
                 <VerticalTimeline>

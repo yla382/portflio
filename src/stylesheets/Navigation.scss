@@ -1,0 +1,27 @@
+.navigation {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+#nav_background_original {
+    background-color: #1d1d1d;
+}
+
+#nav_background_after {
+    background-color: #292828;
+}
+
+#outer_nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+    p {
+        margin: 0px;
+        color: white;
+    }
+}

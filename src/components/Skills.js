@@ -12,7 +12,7 @@ export const Skills = () => {
     return (
         <div className="skills_container">
             <div>
-                <p>Skills</p>
+                <h1>Skills</h1>
                 <div className="icon_container">
                     <span id="django"><SiDjango/></span>
                     <span id="react"><SiReact/></span>
