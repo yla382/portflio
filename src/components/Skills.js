@@ -11,14 +11,16 @@ import {
 export const Skills = () => {
     return (
         <div className="skills_container">
-            <p>Skills</p>
-            <div className="icon_container">
-                <span id="django"><SiDjango/></span>
-                <span id="react"><SiReact/></span>
-                <span id="nodejs"><SiNodedotjs/></span>
-                <span id="jupyter"><SiJupyter/></span>
-                <span id="pandas"><SiPandas/></span>
-                <span id="postgresql"><SiPostgresql/></span>
+            <div>
+                <p>Skills</p>
+                <div className="icon_container">
+                    <span id="django"><SiDjango/></span>
+                    <span id="react"><SiReact/></span>
+                    <span id="nodejs"><SiNodedotjs/></span>
+                    <span id="jupyter"><SiJupyter/></span>
+                    <span id="pandas"><SiPandas/></span>
+                    <span id="postgresql"><SiPostgresql/></span>
+                </div>
             </div>
         </div>
     );

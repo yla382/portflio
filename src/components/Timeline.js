@@ -15,7 +15,7 @@ export const Timeline = () => {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', boxShadow: 'None'}}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="Sept 2021 - present"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -27,6 +27,7 @@ export const Timeline = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
+                        contentStyle={{boxShadow: 'None'}}
                         date="Jan 2021 - Aug 2021"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<TiLeaf />}
@@ -37,6 +38,7 @@ export const Timeline = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
+                        contentStyle={{boxShadow: 'None'}}
                         date="2019 - Present"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                         icon={<IoMdSchool />}
