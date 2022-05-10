@@ -39,3 +39,9 @@
       color: grey;  
     }
 }
+
+@media only screen and (max-width: 870px) {
+    #inner_nav {
+        display: none;
+    }       
+}
