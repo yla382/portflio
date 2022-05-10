@@ -1,4 +1,6 @@
 import "../stylesheets/Skills.scss";
+import "../App.scss";
+
 import {
     SiDjango, 
     SiReact, 
@@ -10,7 +12,7 @@ import {
 
 export const Skills = ({ scrollSkills }) => {
     return (
-        <div className="skills_container" ref={ scrollSkills }>
+        <div className="pageContainer skills_container" ref={ scrollSkills }>
             <div>
                 <h1>Skills</h1>
                 <div className="icon_container">

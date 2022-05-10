@@ -1,7 +1,16 @@
 import "../stylesheets/Navigation.scss";
+import {BsGithub, BsLinkedin} from "react-icons/bs";
 import { useState, useEffect } from 'react';
 
-export const Navigation = ({scrollLanding, scrollTimeLine, scrollSkills}) => {
+export const Navigation = (
+        {
+            scrollLanding, 
+            scrollTimeLine, 
+            scrollSkills, 
+            scrollExperiences,
+            scrollProjects
+        }
+    ) => {
     const [scrollPosition, setScrollPosition] = useState(0);
 
     const handleScroll = () => {
@@ -29,13 +38,14 @@ export const Navigation = ({scrollLanding, scrollTimeLine, scrollSkills}) => {
                 </div>
                 <div id="inner_nav">
                     <p onClick={() => scrollHandler(scrollLanding)}>Home</p>
-                    <p>Experiences</p>
-                    <p>Projects</p>
+                    <p onClick={() => scrollHandler(scrollExperiences)}>Experiences</p>
+                    <p onClick={() => scrollHandler(scrollProjects)}>Projects</p>
                     <p onClick={ () => scrollHandler(scrollSkills)}>Skills</p>
                     <p onClick={ () => scrollHandler(scrollTimeLine) }>Timeline</p>
                 </div>
-                <div>
-                    <p>Links</p>
+                <div id="link_nav">
+                    <a href="https://github.com/yla382" target="_blank" rel="noreferrer"><BsGithub/></a>
+                    <a href="https://www.linkedin.com/in/john-lee-361641114/" target="_blank" rel="noreferrer"><BsLinkedin/></a>
                 </div>
             </div>
         </div>
