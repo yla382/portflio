@@ -1,4 +1,66 @@
 .experiences_container {
     // padding-bottom: 200px;
-    height: 100vh;
+    flex-direction: column;
+}
+
+.experience {
+    display: flex;
+    align-content: flex-start;
+    background-color: #292828;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    img {
+        background-color: white;
+        width: 250px;
+        height: 250px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 50%;
+    }
+}
+
+.employment {
+    width: 100%;
+    margin-left: 20px;
+
+    h3 {
+        color: #cccccc;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #cccccc;
+        margin: 0px;
+    }
+}
+
+.jobTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+@media  screen and (max-width: 1300px) {
+    .experience {
+        flex-direction: column;
+    }
+
+    img {
+        margin: auto;
+    }
+
+    .employment {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+@media  screen and (max-width: 770px) {
+    .jobTitle {
+        flex-direction: column;
+    }
 }
