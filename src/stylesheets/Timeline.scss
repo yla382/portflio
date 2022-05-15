@@ -1,6 +1,7 @@
 .timelineContainer {
     // padding-bottom: 200px;
-    // height: 90vh;
+    min-height: 100vh;
+    scroll-margin-top: 3rem;
 }
 
 @media only screen and (min-width: 1170px) {

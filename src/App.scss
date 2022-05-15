@@ -4,6 +4,7 @@ body {
     background-color: #1d1d1d;
 }
 
+
 *::-webkit-scrollbar {
     width: 16px;
     //background-color: black; TODO
@@ -35,7 +36,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 // @media (min-height: 700px) {

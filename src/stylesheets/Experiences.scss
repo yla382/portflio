@@ -1,13 +1,14 @@
 .experiences_container {
     // padding-bottom: 200px;
     flex-direction: column;
+    scroll-margin-top: 3rem;
 }
 
 .experience {
     display: flex;
     align-content: flex-start;
     background-color: #292828;
-    width: 50%;
+    width: 70%;
     margin: 20px;
     padding: 20px;
     img {
@@ -30,11 +31,13 @@
         margin-top: 0px;
         margin-right: 0px;
         margin-bottom: 10px;
+        font-size: 25px;
     }
 
     p {
         color: #cccccc;
         margin: 0px;
+        font-size: 18px;
     }
 }
 
@@ -47,6 +50,7 @@
 @media  screen and (max-width: 1300px) {
     .experience {
         flex-direction: column;
+        width: 90%;
     }
 
     img {
@@ -61,6 +65,6 @@
 
 @media  screen and (max-width: 770px) {
     .jobTitle {
-        flex-direction: column;
+        // flex-direction: column;
     }
 }
