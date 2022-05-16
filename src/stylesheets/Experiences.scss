@@ -63,8 +63,19 @@
     }
 }
 
-@media  screen and (max-width: 770px) {
+@media  screen and (max-width: 350px) {
+    img {
+       height: 70vw !important;
+       width: 70vw !important;
+    }
+}
+
+@media  screen and (max-width: 300px) {
+    p {
+        font-size: 2vw;
+    }
+
     .jobTitle {
-        // flex-direction: column;
+        flex-direction: column;
     }
 }

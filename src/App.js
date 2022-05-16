@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 // import AboutMe from './components/AboutMe';
 import Timeline from './components/Timeline';
 import Skills from './components/Skills';
+import Footer from './components/Footer';
 import { useRef } from 'react';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       {/* <AboutMe/> */}
       <Skills scrollSkills={ scrollSkills }/>
       <Timeline scrollTimeLine={ scrollTimeLine }/>
+      <Footer></Footer>
     </div>
   );
 }
