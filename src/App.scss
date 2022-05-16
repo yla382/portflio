@@ -5,6 +5,10 @@ body {
     overflow: auto;
 }
 
+#particles {
+  position: absolute;
+  z-index: -1;
+}
 
 *::-webkit-scrollbar {
     width: 16px;

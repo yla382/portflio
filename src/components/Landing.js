@@ -4,6 +4,7 @@ import {BsGithub, BsLinkedin} from "react-icons/bs";
 
 // Landing Page add animation later
 export const Landing = ({ scrollLanding }) => {
+
     return (
         <div className="landingContainer pageContainer" ref={ scrollLanding }>
             <div className="typistContainer">
