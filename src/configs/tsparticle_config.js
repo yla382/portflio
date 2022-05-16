@@ -8,7 +8,7 @@ export const particle_config = {
     interactivity: {
       events: {
         onClick: {
-          enable: true,
+          enable: false,
           mode: "push",
         },
         onHover: {
